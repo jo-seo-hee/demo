@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController
 class HIController {
     @GetMapping
     fun getSample(): String {
+        // 깃에 또 올린다 ~~~
         return "Hi!!!SANDY!!"
     }
 }
